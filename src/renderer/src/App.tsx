@@ -1,7 +1,9 @@
+import './styles/global.css'
+
 export function App() {
   return (
     <>
-      <h1 style={{ fontFamily: 'Inter' }}>Hello World!</h1>
+      <h1 className='text-green-500 font-bold text-4xl'>Hello World!</h1>
     </>
   )
 }
