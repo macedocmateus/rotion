@@ -8,6 +8,7 @@ function createWindow(): void {
 		width: 900,
 		height: 670,
 		show: false,
+		backgroundColor: "#17141f",
 		autoHideMenuBar: true,
 		icon: path.resolve(__dirname, icon),
 		webPreferences: {
