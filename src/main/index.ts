@@ -10,7 +10,7 @@ function createWindow(): void {
 		show: false,
 		backgroundColor: "#17141f",
 		autoHideMenuBar: true,
-		titleBarStyle: "hiddenInset",
+		titleBarStyle: process.platform === "darwin" ? "hiddenInset" : "hidden",
 		trafficLightPosition: {
 			x: 20,
 			y: 20,
